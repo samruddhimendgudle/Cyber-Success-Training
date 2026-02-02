@@ -2,7 +2,27 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }
-.container p{
+.container {
     color: red;
+    border: orchid;
+    position: relative;
+}
+.container input{
+    position: absolute;
+    top: 6px;
+    left: 4px;
+   
+}
+input:focus+label{
+    font-size: 10px;
+    top: 0px;
+}
+.container label{
+    position: absolute;
+    top: 6px;
+    left:4px;
+    color: rgb(8, 8, 8);
+    transition: all 0.3s ease;
 }
