@@ -11,7 +11,7 @@
 }
 .container input{
     position: absolute;
-    top: 6px;
+    top: 6px;  
     left: 4px;
    
 }
@@ -25,4 +25,11 @@ input:focus+label{
     left:4px;
     color: rgb(8, 8, 8);
     transition: all 0.3s ease;
+}
+.list ul li{
+    list-style: none;
+
+}
+li:nth-child(odd){
+    background-color: lightgray;
 }
