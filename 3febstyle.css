@@ -1,0 +1,37 @@
+
+*{
+    margin: 10px;
+    padding:10px;
+}
+li::marker
+{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;}
+    h1{
+        color: #424141;
+    }
+h1::before
+{
+    content: "Name:📛";
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+}
+h1::after
+{
+    content: " 🧑‍🎓Student of Cyber Success Training";
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+}   
+h1{
+    text-align: center;     
+    color: purple;
+
+}
+input::placeholder{
+    color: orange;
+    font-weight: bold;
+    
+}
